@@ -26,6 +26,7 @@ public class Signin {
 	     user1.sendKeys("Ananya Dash");
 	     Select se1 =new Select(driver.findElement(By.xpath("//select[@name='searchSystemUser[status]']")));
 	     se1.selectByIndex(0);
+driver.quit();
 	     
 	     
 	    
